@@ -4,7 +4,7 @@ const sendEmail = async (email, subject, text) => {
   try {
     const transporter = nodemailer.createTransport({
       host: "smtp-relay.brevo.com", // 👈 Switching to Brevo
-      port: 587,                     // 👈 Standard Secure Port
+      port: 2525,                     // 👈 Standard Secure Port
       secure: false,                 // 👈 False for 587
       auth: {
         user: process.env.EMAIL_USER,
