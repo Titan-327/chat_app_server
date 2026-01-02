@@ -1,0 +1,14 @@
+# Dependencies (Too huge, Render installs these automatically)
+node_modules/
+
+# Environment Variables (Security Risk - NEVER commit this)
+.env
+
+# Logs
+npm-debug.log
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
