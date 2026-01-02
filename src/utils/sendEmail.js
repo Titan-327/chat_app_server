@@ -13,7 +13,7 @@ const sendEmail = async (email, subject, text) => {
     });
 
     await transporter.sendMail({
-      from: `"Chat App" <${process.env.EMAIL_USER}>`, // 👈 professional "From" name
+      from: `"Chat App" <neeru.singh327@gmail.com>`, // 👈 professional "From" name
       to: email,
       subject: subject,
       text: text,
