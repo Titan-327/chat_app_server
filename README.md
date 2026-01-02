@@ -2,7 +2,6 @@
 
 The server-side infrastructure for a full-stack WhatsApp clone. Built with **Node.js**, **Express**, and **Socket.io**, it handles real-time messaging, secure authentication, and media uploads.
 
-**[Live Demo Link Here]** *(Add your Render URL if you want)*
 
 ## 🛠 Tech Stack
 
